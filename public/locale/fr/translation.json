@@ -1,27 +1,39 @@
 {
-  "Welcome to React": "bonjour done lib react",
+  "Welcome to React": "Welcome to the world of React",
   "navbar": {
-    "logo": "Coffee"
+    "logo": "Coffee Bliss"
   },
   "hero": {
     "title": "Blvck Tumbler",
-    "subTitle": "Black Lifestyle Lovers,",
-    "desc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus aspernatur, cumque eos neque dolorem architecto deserunt quis voluptatibus in quisquam quia ducimus"
+    "subTitle": "For Lovers of the Black Lifestyle",
+    "desc": "Immerse yourself in the refined elegance of the Blvck Tumbler. Crafted for those who appreciate the finer things, it’s not just a tumbler—it’s a statement. Bold, sleek, and designed to elevate your lifestyle."
   },
   "services": {
     "titleGray": "Fresh and",
-    "titleOrng": "Tasty coffee",
-    "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos reprehenderit eum ducimus, distinctio cum eaque totam voluptatem ex dolorem fuga."
+    "titleOrng": "Tasty Coffee",
+    "desc": "Indulge in our handcrafted coffee, made from premium beans to deliver the perfect blend of taste and aroma. Every sip is an experience, crafted with love and passion to make your coffee moments unforgettable."
   },
   "whereToBuy": {
-    "title": "Buy our products from anywhere",
-    "btn": "Order Naw"
+    "title": "Get Our Products Anytime, Anywhere",
+    "btn": "Order Now"
   },
   "appBanner": {
-    "title": "Download the app",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum magni, est, animi doloribus inventore natus aut perspiciatis illum iste sit sed magnam nisi rerum blanditiis odio"
+    "title": "Download Our App",
+    "desc": "Take the essence of our coffee with you wherever you go. Download our app for a seamless shopping experience, exclusive offers, and more—right at your fingertips."
   },
   "footer": {
-    "logo": " Coffee "
+    "title-1": "Expertly Crafted Coffee, Cozy Vibes, and Unforgettable Moments",
+    "title-2": "Your Perfect Espresso Escape",
+    "location": "Find us on the Map",
+    "quickLinks": "Explore Our Offerings",
+    "link": {
+      "home": "Home",
+      "ourProduct": "Our Products",
+      "order": "Order Now",
+      "downloadApp": "Download Our App"
+    },
+    "address": "Address",
+    "local": "Noida, Uttar Pradesh",
+    "phone": "+91 1234567890"
   }
 }

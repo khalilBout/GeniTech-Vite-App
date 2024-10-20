@@ -94,8 +94,8 @@ const Services = () => {
         variants={containerVariants}
         initial="hidden"
         whileInView={"visible"}
-        viewport={{ amount: 0.8 }}
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
+        viewport={{ amount: 0.1 }}
+        className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-4 md:gap-8"
       >
         {serverData.map((item) => (
           <motion.div
