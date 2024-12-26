@@ -14,24 +14,30 @@ const Services = () => {
       image: Coffee1,
       title: "Black Coffee",
       titleAr: "القهوة السوداء",
-      subtitle: "loreme ipsum dolor sitamet  , consectetur adipiscing elit",
-      subtitleAr: "مستخلصة من أجود أنواع القهوة تمتاز بالمذاق اللاذع القوي ",
+      subtitle:
+        "Rich and bold black coffee brewed to perfection for a robust, full-bodied experience.",
+      subtitleAr:
+        "قهوة سوداء غنية وقوية محضرة بإتقان لتقدم تجربة مذاق جريئة ومتكاملة.",
     },
     {
       id: 2,
       image: Coffee2,
       title: "Hot Coffee",
-      titleAr: "القهوة الساخنة ",
-      subtitle: "loreme ipsum dolor sitamet  , consectetur adipiscing elit",
-      subtitleAr: "مستخلصة من أجود أنواع القهوة تمتاز بالمذاق اللاذع القوي ",
+      titleAr: "القهوة الساخنة",
+      subtitle:
+        "A warm cup of freshly brewed hot coffee to energize your day with its smooth flavor.",
+      subtitleAr:
+        "فنجان دافئ من القهوة الساخنة الطازجة لتحفيز يومك بمذاقها السلس والمميز.",
     },
     {
       id: 3,
       image: Coffee3,
       title: "Cold Coffee",
-      titleAr: "القهوة المثلجة ",
-      subtitle: "loreme ipsum dolor sitamet  , consectetur adipiscing elit",
-      subtitleAr: "مستخلصة من أجود أنواع القهوة تمتاز بالمذاق اللاذع القوي ",
+      titleAr: "القهوة المثلجة",
+      subtitle:
+        "A refreshing cold coffee blend that perfectly balances boldness and smoothness for a cool pick-me-up.",
+      subtitleAr:
+        "خليط منعش من القهوة المثلجة التي توازن بين القوة والنعومة لتجربة مثالية في أي وقت.",
     },
   ];
   const cardVariants = {

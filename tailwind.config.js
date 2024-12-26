@@ -15,7 +15,7 @@ export default {
       //   xl: "1280px",
       // },
       fontFamily: {
-        titleAr: ["Noto Kufi Arabic", "sans-serif"],
+        titleAr: ["Cairo", "sans-serif"],
         bodyAr: ["ElMessiri", "sans-serif"],
       },
       colors: {
