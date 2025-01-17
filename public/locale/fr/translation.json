@@ -1,29 +1,37 @@
 {
   "Welcome to React": "Welcome to the world of React",
   "navbar": {
-    "logo": "Coffee Bliss"
+    "logo": "Coffee "
   },
   "hero": {
-    "title": "Blvck Tumbler",
-    "subTitle": "For Lovers of the Black Lifestyle",
-    "desc": "Immerse yourself in the refined elegance of the Blvck Tumbler. Crafted for those who appreciate the finer things, it’s not just a tumbler—it’s a statement. Bold, sleek, and designed to elevate your lifestyle."
+    "title": "Fros Tella",
+    "prix": "Prix:",
+    "unit": "DA",
+    "subTitle": "For Lovers of the Black Lifestyle"
   },
   "services": {
-    "titleGray": "Fresh and",
-    "titleOrng": "Tasty Coffee",
-    "desc": "Indulge in our handcrafted coffee, made from premium beans to deliver the perfect blend of taste and aroma. Every sip is an experience, crafted with love and passion to make your coffee moments unforgettable."
+    "servis-1": {
+      "titleGray": "Des saveurs magiques à savourer ",
+      "titleOrng": "sur place",
+      "desc": "Le bonheur dans chaque bouchée. Choisissez parmi nos saveurs uniques préparées avec amour et soin"
+    },
+    "servis-2": {
+      "titleGray": "Des saveurs à emporter",
+      "titleOrng": "disponibles en packs",
+      "desc": "Emportez le goût de Frostella partout avec vous. Nos produits en packs sont conçus pour voyager loin"
+    }
   },
   "whereToBuy": {
-    "title": "Get Our Products Anytime, Anywhere",
-    "btn": "Order Now"
+    "title": "Venez nous rendre visite dans l'un de nos trois points de vente et profiter d'une expérience glacée délicieuse",
+    "btn": "Commandez..."
   },
   "appBanner": {
     "title": "Download Our App",
     "desc": "Take the essence of our coffee with you wherever you go. Download our app for a seamless shopping experience, exclusive offers, and more—right at your fingertips."
   },
   "footer": {
-    "title-1": "Expertly Crafted Coffee, Cozy Vibes, and Unforgettable Moments",
-    "title-2": "Your Perfect Espresso Escape",
+    "title-1": "Une expérience glacée exceptionnelle combinant créativité et qualité.",
+    "title-2": "Des saveurs innovantes, des ingrédients 100 % naturels, et une expérience inoubliable.",
     "location": "Find us on the Map",
     "quickLinks": "Explore Our Offerings",
     "link": {
@@ -33,7 +41,7 @@
       "downloadApp": "Download Our App"
     },
     "address": "Address",
-    "local": "Noida, Uttar Pradesh",
-    "phone": "+91 1234567890"
+    "local": "Siège Principal - Alger",
+    "phone": "+213 21 123 456"
   }
 }

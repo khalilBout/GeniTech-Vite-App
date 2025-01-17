@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { FaLocationDot } from "react-icons/fa6";
 
+import footerImg from "../../assets/delivery/d2.png";
+
 const Footer = () => {
   const { t } = useTranslation();
   const FooterLinks = [
@@ -24,9 +26,17 @@ const Footer = () => {
     },
   ];
   return (
-    <div className=" bg-gradient-to-r from-primary to-primaryDark pt-12 pb-8 text-white">
+    <div
+      dir="ltr"
+      className=" relative bg-gradient-to-r from-primary/80 to-primaryDark/90 pt-12 pb-8 text-white"
+    >
+      <img
+        src={footerImg}
+        alt="no"
+        className="max-xl:-z-10 absolute bottom-0 right-0 w-[300px] h-auto object-cover object-center"
+      />
       <div className="">
-        <div className="container grid md:grid-cols-3 pb-20 pt-5">
+        <div className="container grid md:grid-cols-3 pt-5">
           {/* company details */}
           <motion.div
             initial={{ opacity: 0, x: -100 }}
@@ -41,9 +51,9 @@ const Footer = () => {
           >
             <a
               href="/#"
-              className="font-semibold tracking-widest text-2xl sm:text-3xl font-cursive"
+              className="font-semibold tracking-widest text-3xl sm:text-5xl font-cursive text-white"
             >
-              Coffee Cafe
+              Fros<span className="text-blue-400">Tella </span>
             </a>
             <p className="  pt-4">
               {t("footer.title-1")}
@@ -52,7 +62,7 @@ const Footer = () => {
             <a
               href="https://maps.app.goo.gl/SvoaSCsBDUdyrMqj9"
               target="_blank"
-              className="flex gap-4 justify-center bg-[#3d2517] py-2 px-4 mt-5 text-sm rounded-full"
+              className="flex gap-4 justify-center bg-lightOrange py-2 px-4 mt-5 text-sm rounded-full"
             >
               {t("footer.location")}
               <FaLocationDot className="text-xl hover:text-primary duration-200" />

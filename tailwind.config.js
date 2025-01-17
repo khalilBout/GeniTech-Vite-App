@@ -4,26 +4,29 @@ export default {
   // darkMode: "class",
   theme: {
     extend: {
-      // screens: {
-      //   xs: "320px",
-      //   sm: "375px",
-      //   sml: "500px",
-      //   md: "667px",
-      //   mdl: "768px",
-      //   lg: "960px",
-      //   lgl: "1024px",
-      //   xl: "1280px",
-      // },
+      screens: {
+        xs: "320px",
+        sm: "375px",
+        sml: "500px",
+        md: "667px",
+        mdl: "768px",
+        lg: "960px",
+        lgl: "1024px",
+        xl: "1280px",
+      },
       fontFamily: {
         titleAr: ["Cairo", "sans-serif"],
         bodyAr: ["ElMessiri", "sans-serif"],
       },
       colors: {
-        primary: "#f19509",
-        primaryDark: "#e86f00",
-        lightOrange: "#f1dabf",
+        primary: "#731b22",
+        primaryDark: "#87131d",
+        lightOrange: "#b07155",
         darkGray: "#1a1f25",
         lightGray: "#272c35",
+      },
+      backgroundImage: {
+        "hero-bg": "url('./Snow.svg')",
       },
       container: {
         center: true,

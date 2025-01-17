@@ -12,7 +12,7 @@ const Navbar = ({ showSidebar, setShowSidebar }) => {
   };
   const leng = ["ar", "fr"];
   return (
-    <nav className=" absolute z-40 top-0 left-0 w-full pt-10 text-white">
+    <nav className=" absolute z-50 top-0 left-0 w-full pt-10 text-white">
       <div className=" container">
         <div className="flex justify-between items-center">
           {/* logo sect  */}
@@ -28,10 +28,10 @@ const Navbar = ({ showSidebar, setShowSidebar }) => {
               damping: 10,
               delay: 0.2,
             }}
-            className="text-2xl font-semibold uppercase"
+            className="text-2xl font-semibold  text-blue-400"
           >
             {" "}
-            <span className="text-primary">Coders</span> Coffee.{" "}
+            <span className="text-primary">Fros</span>Tella{" "}
           </motion.h1>
           {/* menu  */}
 
@@ -50,12 +50,12 @@ const Navbar = ({ showSidebar, setShowSidebar }) => {
             className="flex gap-2"
           >
             {/* chenge Leng  */}
-            <div className=" group relative cursor-pointer w-12">
+            <div className=" group relative cursor-pointer w-12 ">
               <div className="flex h-[30px] items-center gap-[2px] ">
-                <IoLanguageOutline size={16} />
-                <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
+                <IoLanguageOutline size={16} className="text-primary" />
+                <FaCaretDown className="transition-all duration-200 group-hover:rotate-180 text-primary" />
               </div>
-              <div className="bg-white absolute -bottom-20 -left-10 z-[50] hidden rounded-md p-2 text-black group-hover:block  ">
+              <div className="bg-primary absolute -bottom-26 left-0 z-[50] hidden rounded-md p-2 text-white group-hover:block  ">
                 <ul className="space-y-2">
                   {leng.map((item) => (
                     <li key={item}>
@@ -75,7 +75,7 @@ const Navbar = ({ showSidebar, setShowSidebar }) => {
             </div>
             <IoMenu
               onClick={() => setShowSidebar(!showSidebar)}
-              className="text-3xl cursor-pointer"
+              className="text-3xl cursor-pointer text-primary"
             />
           </motion.div>
         </div>

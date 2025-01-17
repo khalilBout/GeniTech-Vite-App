@@ -1,105 +1,134 @@
 // import React from "react";
-import wordMap from "../../assets/world-map.png";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import MapChart from "../Ui/Map";
+
+import loc from "../../assets/loc.png";
+import { IoLocationSharp } from "react-icons/io5";
+import { FaWhatsapp } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+
+const localData = [
+  {
+    loc: "Siège Principal - Alger",
+    hrefLoc: "https://goo.gl/maps/abcd1234",
+    addLoc: "Rue de l'Indépendance, Alger",
+    phone: "+213 21 123 456",
+    email: "algiers@frostella.com",
+  },
+  {
+    loc: "Agence Sétif",
+    hrefLoc: "https://goo.gl/maps/efgh5678",
+    addLoc: "Quartier du 8 Mai 1945, Sétif",
+    phone: "+213 36 654 321",
+    email: "setif@frostella.com",
+  },
+  {
+    loc: "Agence Oran",
+    hrefLoc: "https://goo.gl/maps/ijkl9012",
+    addLoc: "Rue Emir Abdelkader, Oran",
+    phone: "+213 41 789 012",
+    email: "oran@frostella.com",
+  },
+];
 
 const WhereToBuy = () => {
   const { t } = useTranslation();
   const direction = window.document.dir;
 
   return (
-    <div className=" container my-36">
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 place-items-center">
-        {/* form section  */}
-        <div className="space-y-8">
-          <motion.h1
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 0.2,
-            }}
-            className="text-2xl font-bold text-darkGray font-titleAr"
-          >
-            {t("whereToBuy.title")}
-          </motion.h1>
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 0.4,
-            }}
-            className="flex items-center gap-4"
-          >
-            <input
-              type="text"
-              placeholder={direction === "rtl" ? "الإسم" : "Name"}
-              className="input-style w-full lg:w-[150px]"
-            />
-            <input
-              type="email"
-              placeholder={direction === "rtl" ? "الإيمايل" : "Email"}
-              className="input-style w-full"
-            />
-          </motion.div>
-          <motion.div
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 0.6,
-            }}
-            className="flex items-center gap-4"
-          >
-            <input
-              type="text"
-              placeholder={direction === "rtl" ? "المدينة" : "City"}
-              className="input-style w-full "
-            />
-            <input
-              type="text"
-              placeholder={direction === "rtl" ? "الحي" : "stryt"}
-              className="input-style w-full lg:w-[150px]"
-            />
-          </motion.div>
-          <motion.button
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 0.8,
-            }}
-            className="primary-btn w-full font-titleAr"
-          >
-            {t("whereToBuy.btn")}
-          </motion.button>
-        </div>
-        {/* word map section  */}
-        <div className="col-span-2">
-          <motion.img
-            initial={{ opacity: 0, scale: 0.5 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 1,
-            }}
-            src={wordMap}
-            alt="word map section"
-            className="w-full sm:w-[500px] mx-auto"
-          />
-        </div>
+    <div dir="ltr" className=" relative flex justify-end items-end">
+      {/* form section  */}
+      <div className=" w-full z-50 absolute bottom-6 mdl:bottom-12 left-2 md:left-4 mdl:left-24">
+        <motion.h1
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "spring",
+            stiffness: 100,
+            damping: 10,
+            delay: 0.2,
+          }}
+          className="text-2xl font-bold font-titleAr py-4 max-w-[450px] text-center"
+        >
+          {t("whereToBuy.title")}
+        </motion.h1>
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            type: "spring",
+            stiffness: 100,
+            damping: 10,
+            delay: 0.4,
+          }}
+          className="flex flex-col justify-end items-start gap-4"
+        >
+          {/* location  */}
+
+          {localData?.map((elm, ind) => (
+            <div key={ind} className="flex gap-2 py-2">
+              <motion.img
+                animate={{
+                  y: [0, -4, 0, -4, 0],
+                  // scale: [1, 1.1, 1, 1.1, 1],
+                  // rotateZ: [0, -2, 0, -2, 0],
+                  // rotateX: [0, -10, 0, -10, 0],
+                }}
+                transition={{
+                  duration: 4,
+                  ease: "easeInOut",
+                  repeat: Infinity,
+                  // repeatDelay: 1.2,
+                }}
+                src={loc}
+                alt="map"
+                className="w-auto h-20 object-cover object-center "
+              />
+              <div className=" p-2 rounded-lg bg-primary/60 text-white">
+                <a
+                  href="https://maps.app.goo.gl/kjw77kKa7PUZuays5"
+                  target="_blank"
+                  className="flex gap-2 items-center font-semibold hover:scale-105 duration-200"
+                >
+                  <IoLocationSharp size={16} />
+                  <p className="text-[15px]">{elm.addLoc}</p>
+                </a>
+                <a
+                  href={elm.hrefLoc}
+                  target="_blank"
+                  className="flex gap-2 text-white items-center hover:scale-105 duration-200"
+                >
+                  <HiOutlineMail size={16} />
+                  <p className="text-[15px]">{elm.email}</p>
+                </a>
+                <a
+                  href="/"
+                  target="_blank"
+                  className="flex gap-2 text-white items-center hover:scale-105 duration-200"
+                >
+                  <FaWhatsapp size={16} />
+                  <p className="text-[15px]"> {elm.phone}</p>
+                </a>
+              </div>
+            </div>
+          ))}
+        </motion.div>
       </div>
+      {/* word map section  */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{
+          type: "spring",
+          stiffness: 100,
+          damping: 10,
+          delay: 1,
+        }}
+        className="w-full h-[80vh] "
+      >
+        <MapChart />
+      </motion.div>
     </div>
   );
 };
