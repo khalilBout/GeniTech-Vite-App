@@ -55,7 +55,7 @@ const WhereToBuy = () => {
             damping: 10,
             delay: 0.2,
           }}
-          className="text-2xl font-bold font-titleAr py-4 max-w-[450px] text-center"
+          className="text-xl mdl:text-2xl font-bold font-titleAr px-3 py-4 max-w-[450px] text-center"
         >
           {t("whereToBuy.title")}
         </motion.h1>
@@ -73,7 +73,10 @@ const WhereToBuy = () => {
           {/* location  */}
 
           {localData?.map((elm, ind) => (
-            <div key={ind} className="flex gap-2 p-2 rounded-lg bg-primary/60">
+            <div
+              key={ind}
+              className="max-sml:w-[90%] flex gap-2 px-2 rounded-lg bg-primary/60"
+            >
               <motion.img
                 animate={{
                   y: [0, -4, 0, -4, 0],
@@ -91,14 +94,14 @@ const WhereToBuy = () => {
                 alt="map"
                 className="w-auto h-20 object-cover object-center "
               />
-              <div className=" p-2  text-white">
+              <div className=" p-2 text-white">
                 <a
                   href="https://maps.app.goo.gl/kjw77kKa7PUZuays5"
                   target="_blank"
                   className="flex gap-2 items-center font-semibold hover:scale-105 duration-200"
                 >
                   <IoLocationSharp size={16} />
-                  <p className="text-[15px]">{elm.addLoc}</p>
+                  <p className="text-[14px] sml:text-[16px]">{elm.addLoc}</p>
                 </a>
                 <a
                   href={elm.hrefLoc}
@@ -106,7 +109,7 @@ const WhereToBuy = () => {
                   className="flex gap-2 text-white items-center hover:scale-105 duration-200"
                 >
                   <HiOutlineMail size={16} />
-                  <p className="text-[15px]">{elm.email}</p>
+                  <p className="text-[14px] sml:text-[16px]">{elm.email}</p>
                 </a>
                 <a
                   href="/"
@@ -114,7 +117,7 @@ const WhereToBuy = () => {
                   className="flex gap-2 text-white items-center hover:scale-105 duration-200"
                 >
                   <FaWhatsapp size={16} />
-                  <p className="text-[15px]"> {elm.phone}</p>
+                  <p className="text-[14px] sml:text-[16px]"> {elm.phone}</p>
                 </a>
               </div>
             </div>

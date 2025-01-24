@@ -36,15 +36,15 @@
   "footer": {
     "title-1": "Une expérience glacée exceptionnelle combinant créativité et qualité.",
     "title-2": "Des saveurs innovantes, des ingrédients 100 % naturels, et une expérience inoubliable.",
-    "location": "Find us on the Map",
-    "quickLinks": "Explore Our Offerings",
+    "location": "Trouvez-nous sur la carte",
+    "quickLinks": "Découvrez nos offres",
     "link": {
-      "home": "Home",
-      "ourProduct": "Our Products",
-      "order": "Order Now",
-      "downloadApp": "Download Our App"
+      "home": "accueil",
+      "ourProduct": "Nos produits",
+      "order": "Commandez ",
+      "downloadApp": "Téléchargez notre application"
     },
-    "address": "Address",
+    "address": "Adresse",
     "local": "Siège Principal - Alger",
     "phone": "+213 21 123 456"
   }

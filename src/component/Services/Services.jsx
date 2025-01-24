@@ -214,7 +214,7 @@ const Services = () => {
               damping: 10,
               delay: 0.2,
             }}
-            className=" font-titleAr text-3xl font-bold text-lightGray"
+            className="text-xl mdl:text-2xl xl:text-3xl font-titleAr font-bold text-lightGray"
           >
             {t("services.servis-1.titleGray")}
             <span className=" px-2 text-primary">
@@ -241,7 +241,7 @@ const Services = () => {
           initial="hidden"
           whileInView={"visible"}
           viewport={{ amount: 0.1 }}
-          className=" my-4 container flex justify-around items-center flex-wrap gap-8"
+          className=" m-4 container flex justify-around items-center flex-wrap gap-8"
         >
           {serverData.map((item) => (
             <motion.div

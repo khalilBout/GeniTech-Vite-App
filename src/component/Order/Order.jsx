@@ -38,7 +38,7 @@ const Order = () => {
               damping: 10,
               delay: 0.2,
             }}
-            className="text-2xl font-bold text-darkGray font-titleAr text-justify"
+            className=" mx-4 text-xl mdl:text-2xl font-bold text-darkGray font-titleAr text-justify"
           >
             {t("order.title")}
           </motion.h1>
