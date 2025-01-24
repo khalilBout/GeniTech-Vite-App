@@ -264,7 +264,7 @@ const Hero = () => {
               <Cart data={dataProducts[3]} />
             </div>
           </div>
-          <div className=" pb-4 flex justify-center items-center flex-col lg:flex-row xl:hidden gap-4">
+          <div className="mx-auto w-[90%] pb-4 flex justify-center items-center flex-col lg:flex-row xl:hidden gap-4">
             <div className="flex flex-col xl:flex-row gap-4">
               <Cart data={dataProducts[0]} />
               <Cart data={dataProducts[1]} />
@@ -284,8 +284,8 @@ const Hero = () => {
             whileInView={{ x: 0 }}
             className={
               direction === "rtl"
-                ? "absolute top-0 left-0 w-[180px] h-full bg-gradient-to-b from-primary/80 to-primaryDark/80 backdrop-blur-sm z-40"
-                : "absolute top-0 right-0 w-[180px] h-full bg-gradient-to-b from-primary/80 to-primaryDark/80 backdrop-blur-sm z-40"
+                ? "absolute top-0 left-0 w-[180px] h-[100vh] bg-gradient-to-b from-primary/80 to-primaryDark/80 backdrop-blur-sm z-40"
+                : "absolute top-0 right-0 w-[180px] h-[100vh] bg-gradient-to-b from-primary/80 to-primaryDark/80 backdrop-blur-sm z-40"
             }
           >
             <div className="w-full h-full flex justify-center items-center">

@@ -4,6 +4,9 @@ import { useTranslation } from "react-i18next";
 import MapChart from "../Ui/Map";
 
 import loc from "../../assets/loc.png";
+import cream1 from "../../assets/mapImg/m1.png";
+import cream2 from "../../assets/mapImg/m2.png";
+import cream3 from "../../assets/mapImg/m3.png";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
@@ -15,6 +18,7 @@ const localData = [
     addLoc: "Rue de l'Indépendance, Alger",
     phone: "+213 21 123 456",
     email: "algiers@frostella.com",
+    logoImg: cream1,
   },
   {
     loc: "Agence Sétif",
@@ -22,6 +26,7 @@ const localData = [
     addLoc: "Quartier du 8 Mai 1945, Sétif",
     phone: "+213 36 654 321",
     email: "setif@frostella.com",
+    logoImg: cream2,
   },
   {
     loc: "Agence Oran",
@@ -29,6 +34,7 @@ const localData = [
     addLoc: "Rue Emir Abdelkader, Oran",
     phone: "+213 41 789 012",
     email: "oran@frostella.com",
+    logoImg: cream3,
   },
 ];
 
@@ -67,7 +73,7 @@ const WhereToBuy = () => {
           {/* location  */}
 
           {localData?.map((elm, ind) => (
-            <div key={ind} className="flex gap-2 py-2">
+            <div key={ind} className="flex gap-2 p-2 rounded-lg bg-primary/60">
               <motion.img
                 animate={{
                   y: [0, -4, 0, -4, 0],
@@ -81,11 +87,11 @@ const WhereToBuy = () => {
                   repeat: Infinity,
                   // repeatDelay: 1.2,
                 }}
-                src={loc}
+                src={elm.logoImg}
                 alt="map"
                 className="w-auto h-20 object-cover object-center "
               />
-              <div className=" p-2 rounded-lg bg-primary/60 text-white">
+              <div className=" p-2  text-white">
                 <a
                   href="https://maps.app.goo.gl/kjw77kKa7PUZuays5"
                   target="_blank"

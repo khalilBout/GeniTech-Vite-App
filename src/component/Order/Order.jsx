@@ -38,9 +38,9 @@ const Order = () => {
               damping: 10,
               delay: 0.2,
             }}
-            className="text-2xl font-bold text-darkGray font-titleAr"
+            className="text-2xl font-bold text-darkGray font-titleAr text-justify"
           >
-            {t("whereToBuy.title")}
+            {t("order.title")}
           </motion.h1>
           <motion.div
             initial={{ opacity: 0, y: 100 }}
@@ -60,7 +60,7 @@ const Order = () => {
             />
             <input
               type="email"
-              placeholder={direction === "rtl" ? "الإيمايل" : "Email"}
+              placeholder={direction === "rtl" ? "الهاتف" : "Téléphone"}
               className="input-style w-full"
             />
           </motion.div>

@@ -31,7 +31,7 @@ const Navbar = ({ showSidebar, setShowSidebar }) => {
             className="text-2xl font-semibold  text-blue-400"
           >
             {" "}
-            <span className="text-primary">Fros</span>Tella{" "}
+            <span className="text-primary">Fros</span>Tella
           </motion.h1>
           {/* menu  */}
 
