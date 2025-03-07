@@ -15,11 +15,11 @@ export default {
         xl: "1280px",
       },
       fontFamily: {
-        titleAr: ["Cairo", "sans-serif"],
-        bodyAr: ["ElMessiri", "sans-serif"],
+        Title: ["Cairo", "sans-serif"],
+        Body: ["ElMessiri", "sans-serif"],
       },
       colors: {
-        primary: "#731b22",
+        primary: "#19C4F9",
         primaryDark: "#87131d",
         lightOrange: "#b07155",
         darkGray: "#1a1f25",

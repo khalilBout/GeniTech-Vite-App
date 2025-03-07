@@ -4,48 +4,144 @@
     "logo": "Coffee "
   },
   "hero": {
-    "title": "Fros Tella",
-    "prix": "Prix:",
-    "unit": "DA",
-    "subTitle": "For Lovers of the Black Lifestyle"
+    "title": "Genitech",
+    "suTitle": "Innovation with Genius, Execution with Professionalism",
+    "desc": "We believe that technology is not just a tool, but a means to achieve creativity and excellence. By combining technical genius with innovative solutions, we help businesses achieve their digital goals.",
+    "btn-1": "Discover More",
+    "btn-2": "Discover More"
   },
-  "services": {
-    "servis-1": {
-      "titleGray": "Des saveurs magiques à savourer ",
-      "titleOrng": "sur place",
-      "desc": "Le bonheur dans chaque bouchée. Choisissez parmi nos saveurs uniques préparées avec amour et soin"
+  "link": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact",
+    "btn": "Order Now"
+  },
+  "Statistic": {
+    "box-1": {
+      "nub": "+10",
+      "desc": "Years Experience in the Field"
     },
-    "servis-2": {
-      "titleGray": "Des saveurs à emporter",
-      "titleOrng": "disponibles en packs",
-      "desc": "Emportez le goût de Frostella partout avec vous. Nos produits en packs sont conçus pour voyager loin"
+    "box-2": {
+      "nub": "4.9/5",
+      "desc": "Average Client Rating"
+    },
+    "box-3": {
+      "nub": "+10,000",
+      "desc": "Downloads for Our Clients' Apps"
+    },
+    "box-4": {
+      "nub": "+80%",
+      "desc": "Of Our Clients Return to Work with Us"
+    },
+    "box-5": {
+      "nub": "+25",
+      "desc": "Satisfied Clients"
+    },
+    "box-6": {
+      "nub": "24/7",
+      "desc": "Available to Serve You"
+    },
+    "box-7": {
+      "nub": "+10,000",
+      "desc": "Visits to Our Clients' Websites"
+    },
+    "box-8": {
+      "nub": "+99%",
+      "desc": "Project Stability Rate"
     }
   },
-  "whereToBuy": {
-    "title": "Venez nous rendre visite dans l'un de nos trois points de vente et profiter d'une expérience glacée délicieuse",
-    "btn": "Commandez..."
+
+  "services": {
+    "heroTitle": "We Offer You More Than Just a Service...",
+    "heroTitle2": "We Innovate Digital Solutions That Make a Difference!",
+    "servis-1": {
+      "title": "Mobile App Development",
+      "desc": "We turn your ideas into successful apps with sleek design and fast performance. Whether you want to boost sales or enhance customer experience, we provide the perfect solution!"
+    },
+    "servis-2": {
+      "title": "Website Development",
+      "desc": "Your website is your digital gateway. We design and develop professional, fast, and responsive websites using the latest technologies to help you attract customers and increase profits."
+    },
+    "servis-3": {
+      "title": "Desktop Application Development",
+      "desc": "We provide smart software solutions to help you manage your business efficiently, through powerful and secure desktop applications tailored to your needs."
+    },
+    "servis-4": {
+      "title": "Logo & UI/UX Design",
+      "desc": "We design a unique brand identity that reflects your vision with a professional touch, enhancing customer trust and attracting attention."
+    }
   },
-  "appBanner": {
-    "title": "Download Our App",
-    "desc": "Take the essence of our coffee with you wherever you go. Download our app for a seamless shopping experience, exclusive offers, and more—right at your fingertips."
+  "about": {
+    "title-1": "The Genitech Team",
+    "title-2": "is the driving force behind every success.",
+    "desc": "We bring together a team of professionals working collaboratively to achieve our clients' success using the best technologies and solutions.",
+    "sport": {
+      "title": "Best Service",
+      "desc": "Committed to providing quality."
+    },
+    "service": {
+      "title": "24/7 Support",
+      "desc": "Available at all times."
+    }
   },
-  "order": {
-    "title": "Si vous êtes propriétaire d'un magasin ou d'un restaurant et que vous souhaitez que nos glaces fassent partie de vos produits, nous sommes heureux de vous les proposer à des prix compétitifs.",
-    "btn": "Commandez ..."
+  "product": {
+    "title": "Our Digital Products",
+    "title2": "Innovative Solutions at Your Fingertips",
+    "desc": "Discover our exclusive range of digital products designed to facilitate your business and enhance your digital presence. Integrated solutions of the highest quality standards, ready to use immediately!",
+    "btn": "Read more"
+  },
+  "profil": {
+    "title": "Discover how",
+    "span": "Genitech",
+    "title2": "helped its clients achieve their digital goals through innovative solutions.",
+    "btn": "Read More"
+  },
+  "blogComp": {
+    "title": "Our Blog",
+    "span": "| Your Window to the Latest Innovations and Technologies",
+    "btn": "View More"
+  },
+  "contact": {
+    "title": "How Can We Help You?",
+    "name": "Name",
+    "email": "Email",
+    "sub": "Subject",
+    "phone": "Phone Number",
+    "messege": "Message",
+    "send": "Send"
+  },
+  "summary": {
+    "title": "We Turn Ideas into Digital Reality!",
+    "desc-1": "In a rapidly evolving world, entering the digital space is no longer an option—it’s a necessity. But the real question is: how do you make your digital presence stand out? This is where we come in! We don’t just offer conventional solutions; we craft integrated digital experiences that elevate your brand to the next level.",
+    "desc-2": "We start by understanding your vision, transforming it into a design that reflects your brand’s essence, and then building a website or application that goes beyond aesthetics to deliver seamless performance and an exceptional user experience. From websites that attract visitors and convert them into customers to mobile and desktop applications that enhance engagement with your audience, we ensure that every detail has meaning and value. And to make sure your digital presence is not just a facade, we complete your journey with a visual identity that leaves a lasting impression—from logo design to the finest details.",
+    "desc-3": "But the story doesn’t end here! We don’t create static solutions; we innovate interactive systems that reflect your actual needs and provide you with a real competitive advantage. We believe that technology is not just a tool but a means to make a difference and a weapon to help you stand out in a crowded market. When you start your journey with us, you won’t just be a client—you’ll be a partner in a creative journey that blends art and technology to deliver something extraordinary.",
+    "text": "We start by understanding your vision, transforming it into a design that reflects your brand’s essence, and then building a website or application that goes beyond aesthetics to deliver seamless performance and an exceptional user experience. From websites that attract visitors and convert them into customers to mobile and desktop applications that enhance engagement with your audience, we ensure that every detail has meaning and value. And to make sure your digital presence is not just a facade, we complete your journey with a visual identity that leaves a lasting impression—from logo design to the finest details."
   },
   "footer": {
-    "title-1": "Une expérience glacée exceptionnelle combinant créativité et qualité.",
-    "title-2": "Des saveurs innovantes, des ingrédients 100 % naturels, et une expérience inoubliable.",
-    "location": "Trouvez-nous sur la carte",
-    "quickLinks": "Découvrez nos offres",
-    "link": {
-      "home": "accueil",
-      "ourProduct": "Nos produits",
-      "order": "Commandez ",
-      "downloadApp": "Téléchargez notre application"
+    "desc": "We believe that technology is not just a tool but a means to make a difference, a weapon that helps you stand out in a competitive market. When you start your journey with us, you won’t just be a client, but a partner in a creative journey that blends art and technology to deliver something exceptional.",
+    "service": {
+      "title": "Our Services",
+      "srv-1": "Mobile App Development",
+      "srv-2": "Website Development",
+      "srv-3": "Desktop App Development",
+      "srv-4": "Logo & Brand Identity Design",
+      "srv-5": "UI/UX Design"
     },
-    "address": "Adresse",
-    "local": "Siège Principal - Alger",
-    "phone": "+213 21 123 456"
+    "links": {
+      "title": "Our Links",
+      "link-1": "Home",
+      "link-2": "About Us",
+      "link-3": "Blog",
+      "link-4": "Contact Us",
+      "link-5": "Privacy Policy"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "add": "Damascus, Al-Hamra Street, Building No. 25, Third Floor",
+      "phone": "+963 944 567890",
+      "email": "info@yourcompany-sy.com"
+    }
   }
 }

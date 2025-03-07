@@ -1,84 +1,54 @@
-// import React from "react";
-import i18n from "i18next";
-import { FaCaretDown } from "react-icons/fa";
-import { IoLanguageOutline } from "react-icons/io5";
-import { IoMenu } from "react-icons/io5";
-import { IoClose } from "react-icons/io5";
-import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import Logo from "./Logo";
+import Links from "./Links";
+import Icons from "./Icons";
+import MobileLink from "./MobileLink";
+import { useState } from "react";
+import { RiMenu4Line } from "react-icons/ri";
 
-const Navbar = ({ showSidebar, setShowSidebar }) => {
-  const changeDir = () => {
-    window.document.dir = i18n.dir();
-  };
-  const leng = ["ar", "fr"];
+const Navbar = () => {
+  const { t } = useTranslation();
+  const [open, setOpen] = useState(false);
+
+  const LinkData = [
+    {
+      id: 1,
+      name: t("link.home"),
+      link: "/#",
+    },
+    {
+      id: 2,
+      name: t("link.about"),
+      link: "/",
+    },
+    {
+      id: 3,
+      name: t("link.services"),
+      link: "/",
+    },
+    {
+      id: 4,
+      name: t("link.blog"),
+      link: "/",
+    },
+    {
+      id: 5,
+      name: t("link.contact"),
+      link: "/",
+    },
+  ];
+
   return (
-    <nav className=" absolute z-50 top-0 left-0 w-full pt-10 text-white">
-      <div className=" container">
-        <div className="flex justify-between items-center">
-          {/* logo sect  */}
-          <motion.h1
-            initial={{ opacity: 0, y: -100 }}
-            animate={{
-              opacity: 1,
-              y: 0,
-            }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 0.2,
-            }}
-            className="text-2xl font-semibold  text-blue-400"
-          >
-            {" "}
-            <span className="text-primary">Fros</span>Tella
-          </motion.h1>
-          {/* menu  */}
-
-          <motion.div
-            initial={{ opacity: 0, y: -100 }}
-            animate={{
-              opacity: 1,
-              y: 0,
-            }}
-            transition={{
-              type: "spring",
-              stiffness: 100,
-              damping: 10,
-              delay: 0.2,
-            }}
-            className="flex gap-2"
-          >
-            {/* chenge Leng  */}
-            <div className=" group relative cursor-pointer w-12 ">
-              <div className="flex h-[30px] items-center gap-[2px] ">
-                <IoLanguageOutline size={16} className="text-primary" />
-                <FaCaretDown className="transition-all duration-200 group-hover:rotate-180 text-primary" />
-              </div>
-              <div className="bg-primary absolute -bottom-26 left-0 z-[50] hidden rounded-md p-2 text-white group-hover:block  ">
-                <ul className="space-y-2">
-                  {leng.map((item) => (
-                    <li key={item}>
-                      <button
-                        onClick={() => {
-                          i18n.changeLanguage(item);
-                          changeDir();
-                        }}
-                        className="inline-block rounded-md p-2 hover:bg-primary/20"
-                      >
-                        {item.toUpperCase()}
-                      </button>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-            <IoMenu
-              onClick={() => setShowSidebar(!showSidebar)}
-              className="text-3xl cursor-pointer text-primary"
-            />
-          </motion.div>
-        </div>
+    <nav className="screenPadding fixed z-50 top-4 bg-[#CEEBFD] h-[50px] mdl:h-[72px] w-full flex justify-between items-center ">
+      {/* logo sect  */}
+      <Logo />
+      <Links items={LinkData} />
+      {open && <MobileLink items={LinkData} />}
+      <div className="flex">
+        <Icons />
+        <button className="mdl:hidden" onClick={() => setOpen(!open)}>
+          <RiMenu4Line size={22} />
+        </button>
       </div>
     </nav>
   );

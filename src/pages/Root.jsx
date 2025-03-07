@@ -3,6 +3,7 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import HttpApi from "i18next-http-backend";
+import Navbar from "../component/Navbar/Navbar";
 // import { useState } from "react";
 
 i18n
@@ -33,6 +34,7 @@ export default function Root() {
 
   return (
     <>
+      <Navbar />
       <Outlet />
     </>
   );
