@@ -14,7 +14,7 @@ const Navbar = () => {
     {
       id: 1,
       name: t("link.home"),
-      link: "/#",
+      link: "/",
     },
     {
       id: 2,

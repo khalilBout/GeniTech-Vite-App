@@ -9,7 +9,6 @@ import BlogComp from "../component/BlogComp/BlogComp";
 import Contact from "../component/Contact/Contact";
 import WhatsAppBtn from "../component/WhatsAppBtn/WhatsAppBtn";
 
-import bg from "../assets/bg.svg";
 import Summary from "../component/Summary/Summary";
 
 const Index = () => {

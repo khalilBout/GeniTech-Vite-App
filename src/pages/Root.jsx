@@ -30,7 +30,7 @@ i18n
       loadPath: "/locale/{{lng}}/{{ns}}.json",
     },
   });
-import bg from "../assets/bg.svg";
+import bg from "../assets/bg.png";
 
 const bgImage = {
   backgroundImage: `url(${bg})`,
