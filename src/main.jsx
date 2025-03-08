@@ -29,7 +29,7 @@ const router = createBrowserRouter([
     children: [{ index: true, element: <PhoneApp /> }],
   },
   {
-    path: "/DesktopApp",
+    path: "/DeskApp",
     element: <Root />,
     errorElement: <NotFoundPage />,
     children: [{ index: true, element: <DesktopApp /> }],

@@ -7,10 +7,12 @@ import Product from "../component/Product/Product";
 import Profil from "../component/Profil/Profil";
 import BlogComp from "../component/BlogComp/BlogComp";
 import ContactPage from "../component/Contact/ContactPage";
+import WhatsAppBtn from "../component/WhatsAppBtn/WhatsAppBtn";
 
 const PhoneApp = () => {
   return (
     <div className=" ">
+      <WhatsAppBtn />
       <Hero />
       <WhyUs />
       <Features />

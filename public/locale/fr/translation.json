@@ -189,5 +189,84 @@
         "desc": "Before release, we conduct rigorous testing to ensure a flawless experience, then launch the app with ongoing support and updates."
       }
     }
+  },
+  "webApp": {
+    "hero": {
+      "title": "Genie Tech",
+      "suTitle": "Your Digital Gateway to Success",
+      "desc": "Your website is more than just web pages—it’s your gateway to reaching your audience, showcasing your services, and achieving sustainable growth. With our integrated solutions, we ensure a professional website that combines visual appeal, fast performance, and a seamless user experience.",
+      "btn-1": "Discover More",
+      "btn-2": "Get Started"
+    },
+    "why": {
+      "title": "Why Do You Need a Website?",
+      "desc": "In today’s world, having a digital presence is essential for any business or personal brand. Your website serves as your digital storefront, putting you ahead of the competition. It enables you to connect with your target audience, strengthen your brand, and achieve your goals efficiently. Whether you offer services, sell products, or share valuable content, a website gives you a strong and professional presence online.",
+      "box-1": "Strong Digital Presence",
+      "box-2": "Wider Audience Reach",
+      "box-3": "Efficient Business Management",
+      "box-4": "Increased Sales & Revenue"
+    },
+    "Features": {
+      "title": "Advantages of Developing Websites with Us",
+      "desc1": "Professional & Responsive Design – We create modern and visually appealing websites that adapt seamlessly to all devices, ensuring a smooth and user-friendly experience. Our attention to detail guarantees a website that reflects your unique brand identity.",
+      "desc2": "High Performance & Fast Loading – We deliver fast, responsive websites using the latest technologies and best optimization practices. Clean code and advanced techniques ensure smooth browsing, enhancing user satisfaction and boosting your search engine ranking.",
+      "desc3": "Advanced Security & Protection – We safeguard your website against cyber threats with robust security protocols and regular updates. From data encryption to server protection, we ensure a safe and reliable experience for your visitors."
+    },
+    "steps": {
+      "title": "Our Website Development Process",
+      "desc": "From the moment you share your idea, we follow a structured and precise workflow to deliver a high-performing professional website. Here’s how we turn your vision into reality:",
+      "step-1": {
+        "title": "1. Idea Analysis & Planning",
+        "desc": "We begin by understanding your needs and project goals to define the best strategy for creating a website that aligns with your vision."
+      },
+      "step-2": {
+        "title": "2. UI/UX Design & Prototyping",
+        "desc": "We transform your idea into a professional design that attracts "
+      }
+    }
+  },
+
+  "deskApp": {
+    "hero": {
+      "title": "Genie Tech",
+      "suTitle": "Desktop Application Development - Comprehensive Software Solutions",
+      "desc": "We provide integrated solutions for developing desktop applications tailored to meet the needs of businesses and individuals, ensuring high performance, a seamless user experience, and compatibility with various operating systems. Whether you need an application for customer data management, internal process control, or task automation, we offer the perfect solution using the latest technologies.",
+      "btn-1": "Discover More",
+      "btn-2": "Get Started"
+    },
+    "why": {
+      "title": "What Our Desktop Applications Offer You",
+      "desc": "A desktop application provides powerful and stable performance with advanced security, making it the ideal solution for managing your business efficiently without requiring a constant internet connection.",
+      "box-1": "Fast & Stable Performance",
+      "box-2": "Advanced Security - Strong Data Protection",
+      "box-3": "Seamless Integration - Connect with Databases",
+      "box-4": "Higher Productivity - Reduced Errors"
+    },
+    "Features": {
+      "title": "Why Develop Desktop Applications with Us?",
+      "desc1": "We use the latest technologies to ensure speed and high efficiency, supporting Windows, macOS, and Linux, with integration capabilities for databases like PostgreSQL, MySQL, and MongoDB, as well as connectivity with external devices like printers, scanners, and payment systems.",
+      "desc2": "Professional Design & Advanced User Experience – We focus on delivering desktop applications with elegant, user-friendly interfaces, ensuring a smooth experience that meets your needs and maximizes efficiency and productivity. Our priority is seamless interaction and stable performance for a comfortable user experience.",
+      "desc3": "Security & High Reliability – We implement the latest security standards to protect your data from breaches and cyber threats. Advanced encryption techniques and strict security measures are applied, with continuous updates to ensure a secure and stable performance in the long run."
+    },
+    "steps": {
+      "title": "Our Desktop Application Development Process",
+      "desc": "We follow a structured methodology to achieve the best results, from concept to final application. Here are the key development stages:",
+      "step-1": {
+        "title": "1. Concept Analysis & Planning",
+        "desc": "Analyzing user behavior, defining essential features and required functionalities, creating a clear project roadmap, and setting a development timeline."
+      },
+      "step-2": {
+        "title": "2. UI/UX Design & Experience",
+        "desc": "Designing a modern, responsive user interface for a seamless experience, while enhancing usability through interaction studies and ease-of-use optimization."
+      },
+      "step-3": {
+        "title": "3. Development & Programming",
+        "desc": "Building the application with modern technologies, ensuring strong integration with databases and external devices, and implementing security measures such as two-factor authentication and data encryption."
+      },
+      "step-4": {
+        "title": "4. Testing & Deployment",
+        "desc": "Conducting thorough testing to ensure performance, security, and cross-platform compatibility, followed by a trial version for review and adjustments. Post-launch, we provide ongoing technical support and regular updates to maintain stability and introduce new features as needed."
+      }
+    }
   }
 }
