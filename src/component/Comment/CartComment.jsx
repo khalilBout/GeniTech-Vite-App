@@ -13,13 +13,13 @@ const CartComment = ({ item }) => {
           alt=""
           className="w-[40px] md:w-[65px] h-[40px] md:h-[65px]"
         />
-        <h3 className="font-Title font-bold text-[15px] md:text-xl text-primary">
+        <h3 className="font-Title font-bold text-[14px] md:text-[16px] md:text-xl text-primary">
           {" "}
           {item.user}{" "}
         </h3>
       </div>
       <div>
-        <p className="text-slate-200 text-center text-[13px] md:text-[15px]">
+        <p className="text-slate-200 text-center text-[12px] md:text-[14px]">
           {" "}
           {item.content}{" "}
         </p>

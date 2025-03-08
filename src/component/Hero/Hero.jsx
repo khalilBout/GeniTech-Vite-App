@@ -3,40 +3,40 @@ import Navbar from "../Navbar/Navbar";
 import { motion } from "framer-motion";
 import heroImg from "../../assets/hero/hero-1.png";
 
-const dataProducts = [
-  {
-    name: "Glace à la vanille royale",
-    nameAr: "يس كريم الفانيليا الملكية",
-    dect: "Crémeuse, douce, et préparée avec la meilleure vanille naturelle.",
-    dectAr: "تجربة فاخرة للنقاء الكريمي.",
-    price: "250",
-    // img: cty1,
-  },
-  {
-    name: "Pack Chocolat Noir",
-    nameAr: "عبوة الشوكولاتة الداكنة",
-    dect: "Intense et riche, réalisée avec le cacao belge le plus fin.",
-    dectAr: "نكهة قوية لمحبي الشوكولاتة.",
-    price: "270",
-    // img: cty2,
-  },
-  {
-    name: "Pack Fraises Fraîches",
-    nameAr: "عبوة الفراولة الطازجة",
-    dect: "Rafraîchissante et pleine de saveur, avec des fraises locales.",
-    dectAr: "منعشة ومثالية لمحبي الفواكه.",
-    price: "190",
-    // img: cty3,
-  },
-  {
-    name: "Pack Mangue Tropicale",
-    nameAr: "عبوة المانجو الغني",
-    dect: "Une combinaison unique de crème soyeuse et de morceaux de biscuit croquants.",
-    dectAr: "مذاق استوائي مثالي لأيام الصيف.",
-    price: "220",
-    // img: cty4,
-  },
-];
+// const dataProducts = [
+//   {
+//     name: "Glace à la vanille royale",
+//     nameAr: "يس كريم الفانيليا الملكية",
+//     dect: "Crémeuse, douce, et préparée avec la meilleure vanille naturelle.",
+//     dectAr: "تجربة فاخرة للنقاء الكريمي.",
+//     price: "250",
+//     // img: cty1,
+//   },
+//   {
+//     name: "Pack Chocolat Noir",
+//     nameAr: "عبوة الشوكولاتة الداكنة",
+//     dect: "Intense et riche, réalisée avec le cacao belge le plus fin.",
+//     dectAr: "نكهة قوية لمحبي الشوكولاتة.",
+//     price: "270",
+//     // img: cty2,
+//   },
+//   {
+//     name: "Pack Fraises Fraîches",
+//     nameAr: "عبوة الفراولة الطازجة",
+//     dect: "Rafraîchissante et pleine de saveur, avec des fraises locales.",
+//     dectAr: "منعشة ومثالية لمحبي الفواكه.",
+//     price: "190",
+//     // img: cty3,
+//   },
+//   {
+//     name: "Pack Mangue Tropicale",
+//     nameAr: "عبوة المانجو الغني",
+//     dect: "Une combinaison unique de crème soyeuse et de morceaux de biscuit croquants.",
+//     dectAr: "مذاق استوائي مثالي لأيام الصيف.",
+//     price: "220",
+//     // img: cty4,
+//   },
+// ];
 
 const Hero = () => {
   const { t } = useTranslation();

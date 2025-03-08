@@ -112,6 +112,9 @@
     "messege": "Message",
     "send": "Send"
   },
+  "contact-2": {
+    "desc": "Do you have a question or need a service? Contact us now for a consultation, to get more details, or to start your project! Our support team is ready to respond quickly and provide the assistance you need."
+  },
   "summary": {
     "title": "We Turn Ideas into Digital Reality!",
     "desc-1": "In a rapidly evolving world, entering the digital space is no longer an option—it’s a necessity. But the real question is: how do you make your digital presence stand out? This is where we come in! We don’t just offer conventional solutions; we craft integrated digital experiences that elevate your brand to the next level.",
@@ -142,6 +145,49 @@
       "add": "Damascus, Al-Hamra Street, Building No. 25, Third Floor",
       "phone": "+963 944 567890",
       "email": "info@yourcompany-sy.com"
+    }
+  },
+  "phoneApp": {
+    "hero": {
+      "title": "Genie Tech",
+      "suTitle": "Turn Your Idea into a Successful App!",
+      "desc": "We offer professional services in designing and developing mobile applications for Android and iOS, ensuring a seamless user experience with high performance, fast response, and stability. Whether you want to launch a business app, an e-commerce store, an educational platform, or a custom service app, we provide smart solutions with modern designs and advanced technologies to ensure an enjoyable user experience for your customers.",
+      "btn-1": "Discover More",
+      "btn-2": "Get Started Now"
+    },
+    "why": {
+      "title": "Why Do You Need a Mobile App?",
+      "desc": "In today's world, smartphones have become an essential part of everyone's life, and with them, mobile apps have become a powerful tool for business growth, enhancing customer experience, and achieving sustainable profits. Owning a mobile app is not just a luxury; it is a necessary investment that can make a significant difference in the success of your project.",
+      "box-1": "Strong Competitive Advantage",
+      "box-2": "Increased Sales and Profits",
+      "box-3": "Reach a Wider Audience",
+      "box-4": "Enhanced User Experience"
+    },
+    "Features": {
+      "title": "Features of Developing Apps with Us",
+      "desc1": "We are committed to delivering applications with attractive and user-friendly interfaces that ensure a seamless user experience. We pay attention to every detail, from selecting colors and fonts to designing smart interactions that make the app more engaging and effective.",
+      "desc2": "Whether you're targeting Android or iOS users, we guarantee an app that is compatible with all devices and delivers outstanding performance. We utilize the latest technologies to ensure smooth and stable operation, with continuous optimization to enhance speed and efficiency.",
+      "desc3": "Your journey with us doesn't end after launch—we continue to provide ongoing technical support to ensure app stability and resolve any technical issues. We also offer regular updates to introduce new features and enhance performance in line with your business growth."
+    },
+    "steps": {
+      "title": "Steps to Work with Us",
+      "desc": "From the moment you share your idea, we follow a structured approach to deliver a high-performance app. Here’s how we bring your vision to life:",
+      "step-1": {
+        "title": "1. Analysis & Planning",
+        "desc": "We start by understanding your vision, analyzing market needs, and defining core features. A clear roadmap ensures smooth and organized development."
+      },
+      "step-2": {
+        "title": "2. UI/UX Design",
+        "desc": "We craft intuitive user experiences (UX) with visually appealing interfaces (UI) that reflect your brand and enhance engagement."
+      },
+      "step-3": {
+        "title": "3. Development & Coding",
+        "desc": "Using the latest technologies, we develop fast, stable, and secure apps compatible with iOS, Android, and web platforms."
+      },
+      "step-4": {
+        "title": "4. Testing & Launch",
+        "desc": "Before release, we conduct rigorous testing to ensure a flawless experience, then launch the app with ongoing support and updates."
+      }
     }
   }
 }

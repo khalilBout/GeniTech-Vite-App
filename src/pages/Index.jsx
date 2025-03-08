@@ -7,19 +7,15 @@ import Profil from "../component/Profil/Profil";
 import Comment from "../component/Comment/Comment";
 import BlogComp from "../component/BlogComp/BlogComp";
 import Contact from "../component/Contact/Contact";
+import WhatsAppBtn from "../component/WhatsAppBtn/WhatsAppBtn";
 
 import bg from "../assets/bg.svg";
 import Summary from "../component/Summary/Summary";
-import Footer from "../component/Footer/Footer";
-const bgImage = {
-  backgroundImage: `url(${bg})`,
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-  backgroundRepeat: "no-repeat",
-};
+
 const Index = () => {
   return (
-    <div style={bgImage} className="overflow-hidden ">
+    <>
+      <WhatsAppBtn />
       <Hero />
       <Statistic />
       <Services />
@@ -30,8 +26,7 @@ const Index = () => {
       <BlogComp />
       <Contact />
       <Summary />
-      <Footer />
-    </div>
+    </>
   );
 };
 

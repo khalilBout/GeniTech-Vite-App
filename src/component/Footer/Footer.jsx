@@ -154,11 +154,8 @@ const Footer = () => {
       {/* icons div   */}
       <div
         dir="ltr"
-        className="screenPadding w-full bg-primary h-[45px] flex justify-between items-center "
+        className="screenPadding w-full bg-primary h-[80px] mdl:h-[45px] flex flex-col mdl:flex-row justify-center mdl:justify-between items-center "
       >
-        <p className="text-[15px] text-black">
-          ©2025 <span className="font-bold">GeniTech</span>, All Rights Reserved
-        </p>
         <div className="flex justify-center items-center gap-4 text-black">
           <a href="" className="">
             <FaFacebook />
@@ -173,6 +170,10 @@ const Footer = () => {
             <FaFacebook />
           </a>
         </div>
+        <div className="mdl:hidden w-[70%] h-[1px] bg-black my-2"></div>
+        <p className="text-[15px] text-black">
+          ©2025 <span className="font-bold">GeniTech</span>, All Rights Reserved
+        </p>
       </div>
     </footer>
   );

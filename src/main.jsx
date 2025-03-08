@@ -5,6 +5,11 @@ import "./index.css";
 
 import Root from "./pages/Root";
 import Index from "./pages/Index";
+import PhoneApp from "./pages/PhoneApp";
+import DesktopApp from "./pages/DesktopApp";
+import WebApp from "./pages/WebApp";
+import Design from "./pages/Design";
+
 import NotFoundPage from "./pages/NotFoundPage";
 
 import "slick-carousel/slick/slick.css";
@@ -16,6 +21,30 @@ const router = createBrowserRouter([
     element: <Root />,
     errorElement: <NotFoundPage />,
     children: [{ index: true, element: <Index /> }],
+  },
+  {
+    path: "/phoneApp",
+    element: <Root />,
+    errorElement: <NotFoundPage />,
+    children: [{ index: true, element: <PhoneApp /> }],
+  },
+  {
+    path: "/DesktopApp",
+    element: <Root />,
+    errorElement: <NotFoundPage />,
+    children: [{ index: true, element: <DesktopApp /> }],
+  },
+  {
+    path: "/WebApp",
+    element: <Root />,
+    errorElement: <NotFoundPage />,
+    children: [{ index: true, element: <WebApp /> }],
+  },
+  {
+    path: "/Design",
+    element: <Root />,
+    errorElement: <NotFoundPage />,
+    children: [{ index: true, element: <Design /> }],
   },
 ]);
 
