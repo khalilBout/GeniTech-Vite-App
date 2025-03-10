@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 import logo from "../../assets/logo.svg";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
@@ -25,15 +26,46 @@ const Summary = () => {
   };
   return (
     <div className="screenPadding my-12 font-Title flex flex-col justify-center items-center gap-3">
-      <h1 className="text-[18px] mdl:text-[22px] font-semibold text-slate-200 text-center my-2">
+      <motion.h1
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{
+          type: "spring",
+          stiffness: 100,
+          damping: 10,
+          delay: 0.2,
+        }}
+        className="text-[18px] mdl:text-[22px] font-semibold text-slate-200 text-center my-2"
+      >
         {t("summary.title")}
-      </h1>
-      <div className=" w-full mdl:w-2/3">
+      </motion.h1>
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          type: "spring",
+          stiffness: 100,
+          damping: 10,
+          delay: 0.3,
+        }}
+        className=" w-full mdl:w-2/3"
+      >
         <p className="text-[12px] mdl:text-[14px] text-slate-200 text-center">
           {dataDesc[index]}
         </p>
-      </div>
-      <div dir="ltr" className="flex justify-center items-center gap-4 mb-2">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          type: "spring",
+          stiffness: 100,
+          damping: 10,
+          delay: 0.4,
+        }}
+        dir="ltr"
+        className="flex justify-center items-center gap-4 mb-2"
+      >
         <button
           onClick={() => prevText()}
           className="w-[30px] h-[30px] rounded-full border border-primary flex justify-center items-center"
@@ -46,16 +78,36 @@ const Summary = () => {
         >
           <IoIosArrowForward className="text-primary" size={20} />
         </button>
-      </div>
-      <div className="w-full mdl:w-2/3">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{
+          type: "spring",
+          stiffness: 100,
+          damping: 10,
+          delay: 0.5,
+        }}
+        className="w-full mdl:w-2/3"
+      >
         <p className="text-[12px] mdl:text-[14px] text-slate-200 text-center">
           {t("summary.text")}
         </p>
-      </div>
+      </motion.div>
       {/* logo  img */}
-      <div className="w-[120px] h-[50px] my-2">
+      <motion.div
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{
+          type: "spring",
+          stiffness: 100,
+          damping: 10,
+          delay: 0.6,
+        }}
+        className="w-[120px] h-[50px] my-2"
+      >
         <img src={logo} alt="logo" className="w-full h-auto" />
-      </div>
+      </motion.div>
     </div>
   );
 };

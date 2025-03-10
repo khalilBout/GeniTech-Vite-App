@@ -1,8 +1,17 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const CartComment = ({ item }) => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, x: 100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{
+        type: "spring",
+        stiffness: 100,
+        damping: 10,
+        delay: item.id * 0.1,
+      }}
       dir="ltr"
       className=" border border-primary rounded-md w-[250px] md:max-w-[290px] font-Title m-2 p-3"
     >
@@ -24,7 +33,7 @@ const CartComment = ({ item }) => {
           {item.content}{" "}
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

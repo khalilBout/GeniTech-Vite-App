@@ -14,6 +14,9 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Blog from "./pages/Blog";
+import OneBlog from "./pages/OneBlog";
+import OneProduct from "./pages/OneProduct";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +48,24 @@ const router = createBrowserRouter([
     element: <Root />,
     errorElement: <NotFoundPage />,
     children: [{ index: true, element: <Design /> }],
+  },
+  {
+    path: "/blog",
+    element: <Root />,
+    errorElement: <NotFoundPage />,
+    children: [{ index: true, element: <Blog /> }],
+  },
+  {
+    path: "/oneblog",
+    element: <Root />,
+    errorElement: <NotFoundPage />,
+    children: [{ index: true, element: <OneBlog /> }],
+  },
+  {
+    path: "/oneproduct",
+    element: <Root />,
+    errorElement: <NotFoundPage />,
+    children: [{ index: true, element: <OneProduct /> }],
   },
 ]);
 

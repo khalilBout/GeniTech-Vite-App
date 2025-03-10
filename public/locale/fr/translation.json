@@ -96,7 +96,9 @@
     "title": "Our Digital Products",
     "title2": "Innovative Solutions at Your Fingertips",
     "desc": "Discover our exclusive range of digital products designed to facilitate your business and enhance your digital presence. Integrated solutions of the highest quality standards, ready to use immediately!",
-    "btn": "Read more"
+    "btn": "Read more",
+    "detail": "Product Details",
+    "ourWork": "From our work "
   },
   "profil": {
     "title": "Discover how",
@@ -316,5 +318,12 @@
         "desc": "We provide fully integrated digital designs, including ready-made social media templates, cover images, and eye-catching digital ads. This ensures a cohesive and professional brand presence across all digital platforms."
       }
     }
+  },
+  "blog": {
+    "title": "Our Digital Blog",
+    "suTitle": "Your Window into the World of Technology",
+    "desc": "Welcome to our blog, where we keep up with the latest advancements in technology, design, and development! We provide you with rich content, insights, and tips to help you enhance your digital presence and make the most of modern tech solutions. Follow us to stay ahead!",
+    "title2": "All Blogs",
+    "titleInTheBlog": "What to read next"
   }
 }

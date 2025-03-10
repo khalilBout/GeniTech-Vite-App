@@ -15,9 +15,12 @@ const CardProfil = ({ item }) => {
         <p className=" px-3 text-center text-[12px] font-bold text-gray-800">
           {lng === "ar" ? item.desc : item.descEn}
         </p>
-        <button className="px-4  bg-slate-200 text-gray-900 font-bold cursor-pointer my-2 text-[14px]">
+        <a
+          href="/oneproduct"
+          className="px-4  bg-slate-200 text-gray-900 font-bold cursor-pointer my-2 text-[14px]"
+        >
           {t("product.btn")}
-        </button>
+        </a>
       </div>
       {/* image div  */}
       <div className="w-full h-full ">

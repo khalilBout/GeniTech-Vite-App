@@ -9,38 +9,49 @@ const Icons = () => {
   const changeDir = () => {
     window.document.dir = i18n.dir();
   };
-  const leng = ["ar", "fr"];
+  const leng = [
+    {
+      key: "ar",
+      value: "العربية",
+    },
+    {
+      key: "en",
+      value: "English",
+    },
+  ];
   const [opneLeng, setOpneLeng] = useState(false);
 
   return (
     <div className="flex">
-      <button className="px-2 py-1 bg-green-300 rounded-md font-Title font-bold hidden mdl:block">
-        {" "}
-        {t("link.btn")}
+      <button className="text-[14px] font-Title font-bold hidden mdl:block">
+        <span className=" px-3 py-1 h-[30px] bg-primary/30 hover:bg-primary/90 rounded-md ">
+          {t("link.btn")}
+        </span>
       </button>
-      <button className=" flex justify-center items-center  mdl:hidden">
+      <button className="bg-primary/30 hover:bg-primary m-1 w-8 h-8 p-1 rounded-full flex justify-center items-center  mdl:hidden">
         <FaWhatsapp size={20} />
       </button>
       <div className=" relative">
         <button
-          className="m-2 w-8 h-8 p-1 flex justify-center items-center"
+          className=" bg-primary/30 hover:bg-primary rounded-full m-1 mdl:m-2 w-8 h-8 p-1 flex justify-center items-center"
           onClick={() => setOpneLeng(!opneLeng)}
         >
-          <IoLanguageSharp />
+          <IoLanguageSharp size={17} />
         </button>
 
         {opneLeng && (
-          <ul className=" absolute -bottom-8 z-20 -left-4 px-2 flex bg-blue-400/90">
+          <ul className=" m-1 font-Title font-bold absolute -bottom-20 z-20 -left-4 px-2 bg-green-100 flex flex-col">
             {leng.map((item) => (
               <li key={item}>
                 <button
                   onClick={() => {
-                    i18n.changeLanguage(item);
+                    i18n.changeLanguage(item.key);
                     changeDir();
+                    setOpneLeng(false);
                   }}
-                  className="inline-block w-[30px] rounded-full p-1 hover:bg-primary/40"
+                  className="inline-block w-[70px] p-1 hover:text-primary"
                 >
-                  {item.toUpperCase()}
+                  {item.value}
                 </button>
               </li>
             ))}

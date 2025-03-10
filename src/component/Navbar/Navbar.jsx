@@ -29,12 +29,12 @@ const Navbar = () => {
     {
       id: 4,
       name: t("link.blog"),
-      link: "/",
+      link: "/blog",
     },
     {
       id: 5,
       name: t("link.contact"),
-      link: "/",
+      link: "/#contact",
     },
   ];
 

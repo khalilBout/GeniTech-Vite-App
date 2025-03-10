@@ -2,8 +2,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import CardProfil from "./CardProfil";
 import img1 from "../../assets/product/p1.png";
-import imgProfil from "../../assets/profil/p1.png";
 import Slider from "react-slick";
+import ImageSlider from "../Ui/SlidAuto";
 
 const dataProfil = [
   {
@@ -81,8 +81,8 @@ const Profil = () => {
       <h1 className="pb-2 text-xl mdl:text-2xl xl:text-3xl font-Title font-medium text-slate-200">
         {t("profil.title2")}
       </h1>
-      <div className="w-full flex justify-between items-center gap-2 ">
-        <div className="w-[60%] sml:w-[80%] lg:w-[70%] mx-auto my-4 ">
+      <div className="w-full flex justify-between items-center gap-4 ">
+        <div className=" w-[60%] sml:w-[80%] lg:w-[70%] mx-auto my-4 ">
           <Slider {...settings}>
             {dataProfil.map((item, ind) => (
               <CardProfil key={ind} item={item} />
@@ -90,8 +90,9 @@ const Profil = () => {
           </Slider>
         </div>
         {/* image div  */}
-        <div className=" hidden lg:block lg:w-[30%] h-full">
-          <img className="w-[100%] h-auto" src={imgProfil} alt="imgProfil" />
+        <div className=" hidden lg:flex justify-center items-center lg:w-[30%] h-full">
+          {/* <img className="w-[100%] h-auto" src={imgProfil} alt="imgProfil" /> */}
+          <ImageSlider />
         </div>
       </div>
     </div>
