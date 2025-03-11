@@ -116,7 +116,7 @@ const Hero = () => {
         }}
         className="max-mdl:absolute max-mdl:top-20 max-mdl:left-0 max-mdl:right-0 max-mdl:opacity-10 max-mdl:w-full mdl:w-3/5 h-full "
       >
-        <img src={heroImg} alt="" className="w-full h-auto" />
+        <img src={heroImg} alt="" className="w-full h-auto opacity-15 mdl:opacity-100 " />
       </motion.div>
     </section>
   );

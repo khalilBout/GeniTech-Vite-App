@@ -101,7 +101,7 @@ const About = () => {
         }}
         className=" max-mdl:absolute max-mdl:top-12 max-mdl:left-0 max-mdl:right-0 max-mdl:opacity-10 max-mdl:w-full mdl:w-3/5 h-full flex justify-center items-center"
       >
-        <img src={logo} alt="logo" className="w-[90%] h-auto" />
+        <img src={logo} alt="logo" className="w-[90%] h-auto opacity-15 mdl:opacity-100" />
       </motion.div>
     </div>
   );
